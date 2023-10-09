@@ -1,10 +1,9 @@
 package Rest;
 
 public class Chef {
-    String name; // ім'я шефа
+    String name;
     int experienceYears; // досвід у роках
-    double salary; // зарплата шефа
-
+    double salary;
     public Chef(String name,int experienceYears,double salary){ // конструктор
         this.name = name;
         this.experienceYears = experienceYears;

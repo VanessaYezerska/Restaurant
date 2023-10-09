@@ -8,7 +8,6 @@ public class Main {
         Chef chef = new Chef("Олексій", 5, 20000);
         Dish dish1 = new Dish("Грецький салат", 140,true,200);
         Dish dish2 = new Dish("Паста Карбонара",220,false,300);
-       // Restaurant restaurant = new Restaurant();
 
        //restaurant.info();
         //System.out.println(restaurant.yearExist() + " роки існування");

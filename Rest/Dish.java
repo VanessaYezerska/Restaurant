@@ -1,8 +1,8 @@
 package Rest;
 
 public class Dish {
-    String name; // назва страви
-    double price; // ціна страви
+    String name;
+    double price;
     boolean isVegetarian; // чи є вегетеріанське
     int weight; // вага страви
 
