@@ -13,12 +13,6 @@ public class Restaurant {
     }
 
 
-// public Restaurant() { //перевизн констрк
-    //     this.name = "Невідомий ресторан";
-    //   this.openingYear = 0;
-    // this.location = "Невідома кухня";
-
-
      void info() {  // інформація ппо ресторан
        System.out.println("Назва ресторану - " + name);
        System.out.println("Локація: " + location);
