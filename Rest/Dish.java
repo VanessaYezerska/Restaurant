@@ -30,14 +30,7 @@ public class Dish {
     public static void specialDish() {
         System.out.println("Спеціальна страва дня: Паста Карбонара");
     }
-
-    // void info(Dish otherDish){  // інформація про страву
-    //  System.out.println(name);
-    //System.out.println("Ціна: " + price + " грн");
-    //System.out.println("Вегетаріанський: " + (isVegetarian ? "Так" : "Ні" ));
-    //}
     public void processDishInstance(Dish otherDish) { // Виклик будь-якого методу із класу, екземпляр якого передано в якості параметру
-        // 1.1. Виклик будь-якого методу із класу, екземпляр якого передано в якості параметру.
         System.out.println("Обробка іншої страви:");
         System.out.println("Назва страви: " + otherDish.name);
         System.out.println("Ціна: " + otherDish.price);
