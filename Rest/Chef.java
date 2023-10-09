@@ -10,10 +10,18 @@ public class Chef {
         this.experienceYears = experienceYears;
         this.salary = salary;
     }
-    void info(){ // інформація про шеф-кухаря
-        System.out.println("Шуф-кухар - "+ name + " з досвідом роботи "+ experienceYears + " років");
+    void info() { // інформація про шеф-кухаря
+
+        System.out.println("Шеф-кухар - "+ name + " з досвідом роботи "+ experienceYears + " років");
     }
     double salaryChef(){ // зарплата шеф-кухаря
         return salary;
     }
+    int salaryChef(int salary){ // перевизначений метод
+        return salary;
+    }
+    public static void specialDish() {
+        System.out.println("Спеціальна страва шеф-кухаря: Курка теріякі");
+    }
+
 }
