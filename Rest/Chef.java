@@ -17,9 +17,11 @@ public class Chef {
         return salary;
     }
     int salaryChef(int salary){ // перевизначений метод
+
         return salary;
     }
-    public static void specialDish() {
+    public static void specialDish() { //перевантаження статичного методу
+
         System.out.println("Спеціальна страва шеф-кухаря: Курка теріякі");
     }
 

@@ -27,13 +27,13 @@ public class Dish {
         return weight;
     }
 
-    public static void specialDish() {
+    public static void specialDish() { // перевантаження статичного методу
         System.out.println("Спеціальна страва дня: Паста Карбонара");
     }
-    public void processDishInstance(Dish otherDish) { // Виклик будь-якого методу із класу, екземпляр якого передано в якості параметру
+    public void processDishInstance(Dish dish2) { // Виклик будь-якого методу із класу, екземпляр якого передано в якості параметру
         System.out.println("Обробка іншої страви:");
-        System.out.println("Назва страви: " + otherDish.name);
-        System.out.println("Ціна: " + otherDish.price);
+        System.out.println("Назва страви: " + dish2.name);
+        System.out.println("Ціна: " + dish2.price);
 
     }
 

@@ -13,11 +13,11 @@ public class Restaurant {
     }
 
 
-     void info() {  // інформація ппо ресторан
-       System.out.println("Назва ресторану - " + name);
-       System.out.println("Локація: " + location);
-      System.out.println("Рік відкриття - " + openingYear);
-     }
+    void info() {  // інформація ппо ресторан
+        System.out.println("Назва ресторану - " + name);
+        System.out.println("Локація: " + location);
+        System.out.println("Рік відкриття - " + openingYear);
+    }
 
     int yearExist() {  // рік існування ресторану
         int y = 2023 - openingYear;
@@ -29,7 +29,8 @@ public class Restaurant {
         return y;
     }
 
-    public static void specialDish() { //статичний метод
+    public static void specialDish() { //перевантаження статичного методу
         System.out.println("Спеціальна страва ресторану: Стейк з лосося");
     }
+
 }
