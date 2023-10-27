@@ -1,7 +1,6 @@
 package Rest;
 
  class Chef {
-     private String getName;
      private String name;
      private int experienceYears; // досвід у роках
      private double salary;
