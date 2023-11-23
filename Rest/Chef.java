@@ -1,9 +1,9 @@
 package Rest;
 
  class Chef{
-     private String name;
-     private int experienceYears; // досвід у роках
-     private double salary;
+      String name;
+      int experienceYears; // досвід у роках
+      double salary;
 
 
      Chef(String name,int experienceYears,double salary){ // конструктор
