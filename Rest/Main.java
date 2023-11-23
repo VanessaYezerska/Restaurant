@@ -8,14 +8,20 @@ package Rest;
         Dish dish1 = new Dish();
         Dish dish2 = new Dish();
         Waiter waiter1 = new Waiter();
+        People people = new People();
+        SuChef suchef = new SuChef();
 
         restaurant.setName("Скіфія");
         restaurant.setOpeningYear(2019);
         restaurant.setLocation("Львів");
 
         chef.setName("Олексій");
-        chef.setExperienceYears(5);
-        chef.setSalary(20000);
+        chef.setExperienceYears(8);
+        chef.setSalary(25000);
+
+        suchef.setName("Олена");
+        suchef.setExperienceYears(5);
+        suchef.setSalary(18000);
 
         dish1.setName("Грецький салат");
         dish1.setPrice(140);
@@ -32,6 +38,7 @@ package Rest;
         restaurant.getInfo();
         waiter1.infoWaiter();
         waiter1.guestService();
+        suchef.info();
         Restaurant.specialDish();
         Chef.specialDish();
         Dish.specialDish();

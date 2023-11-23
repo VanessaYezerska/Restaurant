@@ -40,7 +40,7 @@ package Rest;
         System.out.println("Ціна: " + dish2.price);
 
     }
-     public void setVegetarian(boolean vegetarian) {
+     public void setVegetarian(boolean vegetarian)       {
          isVegetarian = vegetarian;
      }
      public boolean isVegetarian() {

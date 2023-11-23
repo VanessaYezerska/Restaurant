@@ -11,8 +11,12 @@ public class Waiter {
         System.out.println("Мені " + AGE + " роки.");
     }
     public void guestService() {
-        final int N = 10; // к-ксть гостей
+        final int N = 15; // к-ксть гостей
         final String MASSAGE = "Ласкаво просимо до нашого ресторану!";
         System.out.println(MASSAGE + " Ми обслуговуємо " + N + " гостей.");
+    }
+
+    void takeTheOrder() {
+        System.out.println("Доброго дня, що бажаєте замовити?");
     }
 }

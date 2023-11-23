@@ -1,6 +1,6 @@
 package Rest;
 
- class Restaurant {
+ class Restaurant{
      private String name; // назва
      private int openingYear; // рік відкриття
      private String location; // локація
