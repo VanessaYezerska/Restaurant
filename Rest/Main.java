@@ -4,24 +4,17 @@ package Rest;
     public static void main(String[] args) {
 
         Restaurant restaurant  = new Restaurant();
-        Chef chef = new Chef();
+        Chef chef = new Chef("Олексій",8,25000,"Кичма");
+        SuChef suChef = new SuChef("Олена",5,18000,"Червінка");
         Dish dish1 = new Dish();
         Dish dish2 = new Dish();
         Waiter waiter1 = new Waiter();
         People people = new People();
-        SuChef suchef = new SuChef();
 
         restaurant.setName("Скіфія");
         restaurant.setOpeningYear(2019);
         restaurant.setLocation("Львів");
 
-        chef.setName("Олексій");
-        chef.setExperienceYears(8);
-        chef.setSalary(25000);
-
-        suchef.setName("Олена");
-        suchef.setExperienceYears(5);
-        suchef.setSalary(18000);
 
         dish1.setName("Грецький салат");
         dish1.setPrice(140);
@@ -38,7 +31,7 @@ package Rest;
         restaurant.getInfo();
         waiter1.infoWaiter();
         waiter1.guestService();
-        suchef.info();
+        suChef.info();
         Restaurant.specialDish();
         Chef.specialDish();
         Dish.specialDish();
@@ -51,7 +44,7 @@ package Rest;
         dish1.processDishInstance(dish2);
         System.out.println(restaurant.yearExist() + " роки існування");
         chef.info();
-         System.out.println("Зарплата - " + chef.salaryChef() + "грн");
+        System.out.println("Зарплата - " + chef.salaryChef() + "грн");
 
     }
 

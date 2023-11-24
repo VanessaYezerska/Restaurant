@@ -4,12 +4,14 @@ package Rest;
       String name;
       int experienceYears; // досвід у роках
       double salary;
+      String surname;
 
 
-     Chef(String name,int experienceYears,double salary){ // конструктор
+     Chef(String name, int experienceYears, double salary, String surname){ // конструктор
         this.name = name;
         this.experienceYears = experienceYears;
         this.salary = salary;
+        this.surname = surname;
     }
     Chef(){
     }

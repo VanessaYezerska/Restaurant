@@ -5,10 +5,8 @@ public class SuChef extends Chef{
     int experienceYears; // досвід у роках
     double salary;
 
-    public SuChef(String name,int experienceYears,double salary) {
-        this.name = name;
-        this.experienceYears = experienceYears;
-        this.salary = salary;
+    public SuChef(String name,int experienceYears,double salary,String surname) {
+        super(name,experienceYears,salary,surname);
 
     }
     public SuChef() {
