@@ -34,26 +34,5 @@ package Rest;
     }
 
 
-     public String getName() {
-         return name;
-     }
-     public void setName(String name) {
-         this.name = name;
-     }
 
-     public int getExperienceYears() {
-         return experienceYears;
-     }
-
-     public void setExperienceYears(int experienceYears) {
-         this.experienceYears = experienceYears;
-     }
-
-     public double getSalary() {
-         return salary;
-     }
-
-     public void setSalary(double salary) {
-         this.salary = salary;
-     }
  }
