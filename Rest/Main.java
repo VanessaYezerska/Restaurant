@@ -19,6 +19,7 @@ package Rest;
         waiterTwo.additionalMethod();
         waiterTwo.greetCustomer();
         waiterThree.greetCustomer();
+        waiterThree.serveTable(7);
 
 //        restaurant.setName("Скіфія");
 //        restaurant.setOpeningYear(2019);
