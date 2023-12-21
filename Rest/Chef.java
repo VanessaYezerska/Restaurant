@@ -1,6 +1,6 @@
 package Rest;
 
- class Chef{
+  class Chef{
       String name;
       int experienceYears; // досвід у роках
       double salary;
@@ -13,9 +13,7 @@ package Rest;
         this.salary = salary;
         this.surname = surname;
     }
-    Chef(){
-    }
-    void info() { // інформація про шеф-кухаря
+     void info() { // інформація про шеф-кухаря
 
         System.out.println("Шеф-кухар - "+ name + " з досвідом роботи "+ experienceYears + " років");
     }

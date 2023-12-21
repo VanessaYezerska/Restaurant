@@ -9,8 +9,4 @@ public class SuChef extends Chef{
         super(name,experienceYears,salary,surname);
 
     }
-    public SuChef() {
-    }
-
-
 }
