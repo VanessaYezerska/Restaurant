@@ -1,6 +1,6 @@
 package Rest;
 
-public class WaiterTwo extends Waiter{
+public class WaiterTwo extends Waiter {
     // Додаткові змінні класу WaiterTwo
     int experienceYears;
 

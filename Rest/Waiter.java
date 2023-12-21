@@ -1,6 +1,6 @@
 package Rest;
 
- class Waiter implements WaiterService{
+ class Waiter implements WaiterService {
      // Змінні класу Waiter
      String name;
 

@@ -1,6 +1,6 @@
 package Rest;
 
-public class WaiterThree extends Waiter{
+public class WaiterThree extends Waiter {
     // Додаткові змінні класу WaiterThree
     boolean isSenior;
 
