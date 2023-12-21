@@ -8,7 +8,7 @@ package Rest;
         String dish2 = "Грецький салат";
         System.out.println("Доброго дня, ми б хотіли замовити " + dish1 + " та " + dish2);
     }
-    void welcome(){
-        System.out.println("Доброго дня! Ми б хотіли дізнатись про Ваш ресторан");
-    }
+ //   void welcome(){
+  //      System.out.println("Доброго дня! Ми б хотіли дізнатись про Ваш ресторан");
+ //   }
 }

@@ -26,10 +26,10 @@ package Rest;
 
         return salary;
     }
-     static void specialDish() { //перевантаження статичного методу
+   //  static void specialDish() { //перевантаження статичного методу
 
-        System.out.println("Спеціальна страва шеф-кухаря: Курка теріякі");
-    }
+//        System.out.println("Спеціальна страва шеф-кухаря: Курка теріякі");
+  //  }
 
 
 

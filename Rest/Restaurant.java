@@ -12,8 +12,8 @@ package Rest;
          this.location = location;
      }
 
-     Restaurant() {
-     }
+   //  Restaurant() {
+   //  }
 
      void getInfo() {
          System.out.println("назва ресторану - " + getName());

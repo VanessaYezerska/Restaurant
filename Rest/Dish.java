@@ -34,12 +34,12 @@ package Rest;
     static void specialDish() { // перевантаження статичного методу
         System.out.println("Спеціальна страва дня: Паста Карбонара");
     }
-     void processDishInstance(Dish dish2) { // Виклик будь-якого методу із класу, екземпляр якого передано в якості параметру
-        System.out.println("Обробка іншої страви:");
-        System.out.println("Назва страви: " + dish2.name);
-        System.out.println("Ціна: " + dish2.price);
+   //  void processDishInstance(Dish dish2) { // Виклик будь-якого методу із класу, екземпляр якого передано в якості параметру
+     //   System.out.println("Обробка іншої страви:");
+       // System.out.println("Назва страви: " + dish2.name);
+     //   System.out.println("Ціна: " + dish2.price);
 
-    }
+    //}
      public void setVegetarian(boolean vegetarian)       {
          isVegetarian = vegetarian;
      }
